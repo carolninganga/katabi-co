@@ -96,20 +96,20 @@ function Card({ children }) {
 
 function Image({ ratio, src }) {
   return (
-    <div className="image-container">
-      <div className="image-inner-container">
+    <div className="image-container center">
+      <div className="image-inner-container center">
         <div
           className="ratio"
           style={{
             paddingTop: ratio * 100 + '%'
           }}
         >
-          <div className="ratio-inner">
+          <div className="ratio-inner center">
             <img src={src} />
           </div>
         </div>
-      </div>
-    </div>
+      </div> 
+     </div>
   );
 }
 
