@@ -11,7 +11,7 @@ function About() {
               {cards.map((card, i) => (
                 <div className="column">
                   <Card>
-                    <div className="card-title">{card.title}</div>
+                    <div className="card-title center">{card.title}</div>
                     <div className="card-body">{card.description}</div>
                     <Image ratio={card.imageRatio} src={card.image} />
                   </Card>
@@ -127,7 +127,7 @@ function Info() {
 
 const cards = [
   {
-    title: 'Katabi closes the distance ⚡️',
+    title: '⚡️ Katabi closes the distance ⚡️',
     description:
       "Katabi enables close collaboration through a WebVR experience that closes the distance between remote teams. It is a virtual world space, accessible through a browser or virtual reality headset, with ready-made meeting and social spaces and an easy-to-learn interface. 'Katabi ko' means 'beside me' in Tagalog, the Filipino language. In quarantine, social distancing no longer allows us to feel the camaraderie of sitting beside someone. Sit next to someone safely in Katabi",
     image: 'https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Fvr-headset-removebg.png?v=1592856275884',
