@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
-import styles from './LayoutTextFields.module.css'
+import './LayoutTextFields.module.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
