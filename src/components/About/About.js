@@ -1,14 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { useSpring, animated } from 'react-spring';
-import ReactParticles from 'react-particles-js';
-import particlesConfig from './particles-config';
 import './style.scss';
 
 function About() {
   return (
     <div className="main">
-      <Particles>
-        <Hero>
           <div className="container">
             <Info />
             <div className="row">
@@ -23,8 +19,6 @@ function About() {
               ))}
             </div>
           </div>
-        </Hero>
-      </Particles>
     </div>
   );
 }
@@ -99,32 +93,6 @@ function Card({ children }) {
   );
 }
 
-function Particles({ children }) {
-  return (
-    <div style={{ position: 'relative' }}>
-      <ReactParticles
-        params={particlesConfig}
-        style={{
-          position: 'absolute',
-          zIndex: 1,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          top: 0
-        }}
-      />
-      {children && <div style={{ position: 'relative' }}>{children}</div>}
-    </div>
-  );
-}
-
-function Hero({ children }) {
-  return (
-    <div className="hero">
-      <div className="hero-body">{children}</div>
-    </div>
-  );
-}
 
 function Image({ ratio, src }) {
   return (
