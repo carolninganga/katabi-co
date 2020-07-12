@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
+import './LayoutTextFields.module.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,7 +21,7 @@ export default function LayoutTextFields() {
   return (
     <div className={classes.root}>
       <div>
-        <TextField
+        <TextField 
           id="standard-full-width"
           style={{ margin: 8 }}
           placeholder="Enter Event Code"
