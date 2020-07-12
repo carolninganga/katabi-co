@@ -1,5 +1,0 @@
-.box {
-    box-model: border-box;
-    border: 25px solid transparent;
-    background-clip:padding-box;
-  }

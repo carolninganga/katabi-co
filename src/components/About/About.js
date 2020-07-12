@@ -1,27 +1,6 @@
-import React, { useState, useRef } from 'react';
-import { useSpring, animated } from 'react-spring';
-import './style.scss';
-
-function About() {
-  return (
-    <div className="main">
-          <div className="container">
-            <Info />
-            <div className="row">
-              {cards.map((card, i) => (
-                <div className="column">
-                  <Card>
-                    <div className="card-title center">{card.title}</div>
-                    <div className="card-body">{card.description}</div>
-                    <Image ratio={card.imageRatio} src={card.image} />
-                  </Card>
-                </div>
-              ))}
-            </div>
-          </div>
-    </div>
-  );
-}
+import React, { useState, useRef } from "react";
+import { useSpring, animated } from "react-spring";
+import "./about.scss";
 
 function Card({ children }) {
   // We add this ref to card element and use in onMouseMove event ...
@@ -93,7 +72,6 @@ function Card({ children }) {
   );
 }
 
-
 function Image({ ratio, src }) {
   return (
     <div className="image-container center">
@@ -101,15 +79,15 @@ function Image({ ratio, src }) {
         <div
           className="ratio"
           style={{
-            paddingTop: ratio * 100 + '%'
+            paddingTop: ratio * 100 + "%"
           }}
         >
           <div className="ratio-inner center">
-            <img src={src} />
+            <img src={src} class="goggles-img" alt="A VR headset" />
           </div>
         </div>
-      </div> 
-     </div>
+      </div>
+    </div>
   );
 }
 
@@ -127,13 +105,34 @@ function Info() {
 
 const cards = [
   {
-    title: '⚡️ Katabi closes the distance ⚡️',
+    title: "⚡️ Katabi closes the distance ⚡️",
     description:
       "Katabi enables close collaboration through a WebVR experience that closes the distance between remote teams. It is a virtual world space, accessible through a browser or virtual reality headset, with ready-made meeting and social spaces and an easy-to-learn interface. 'Katabi ko' means 'beside me' in Tagalog, the Filipino language. In quarantine, social distancing no longer allows us to feel the camaraderie of sitting beside someone. Sit next to someone safely in Katabi",
-    image: 'https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Fvr-headset-removebg.png?v=1592856275884',
+    image:
+      "https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Fvr-headset-removebg.png?v=1592856275884",
     imageRatio: 784 / 1016
   }
 ];
 
+function About() {
+  return (
+    <div className="main">
+      <div className="container">
+        <Info />
+        <div className="row">
+          {cards.map((card, i) => (
+            <div className="column">
+              <Card>
+                <div className="card-title center">{card.title}</div>
+                <div className="card-body">{card.description}</div>
+                <Image ratio={card.imageRatio} src={card.image} />
+              </Card>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default About;
