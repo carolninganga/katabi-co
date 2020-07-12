@@ -2,27 +2,6 @@ import React, { useState, useRef } from "react";
 import { useSpring, animated } from "react-spring";
 import "./about.scss";
 
-function About() {
-  return (
-    <div className="main">
-      <div className="container">
-        <Info />
-        <div className="row">
-          {cards.map((card, i) => (
-            <div className="column">
-              <Card>
-                <div className="card-title center">{card.title}</div>
-                <div className="card-body">{card.description}</div>
-                <Image ratio={card.imageRatio} src={card.image} />
-              </Card>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function Card({ children }) {
   // We add this ref to card element and use in onMouseMove event ...
   // ... to get element's offset and dimensions.
@@ -104,7 +83,7 @@ function Image({ ratio, src }) {
           }}
         >
           <div className="ratio-inner center">
-            <img src={src} />
+            <img src={src} class="goggles-img" alt="A VR headset" />
           </div>
         </div>
       </div>
@@ -134,5 +113,26 @@ const cards = [
     imageRatio: 784 / 1016
   }
 ];
+
+function About() {
+  return (
+    <div className="main">
+      <div className="container">
+        <Info />
+        <div className="row">
+          {cards.map((card, i) => (
+            <div className="column">
+              <Card>
+                <div className="card-title center">{card.title}</div>
+                <div className="card-body">{card.description}</div>
+                <Image ratio={card.imageRatio} src={card.image} />
+              </Card>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default About;
