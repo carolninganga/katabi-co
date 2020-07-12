@@ -1,24 +1,24 @@
-import React, { useState, useRef } from 'react';
-import { useSpring, animated } from 'react-spring';
-import './about.scss';
+import React, { useState, useRef } from "react";
+import { useSpring, animated } from "react-spring";
+import "./about.scss";
 
 function About() {
   return (
     <div className="main">
-          <div className="container">
-            <Info />
-            <div className="row">
-              {cards.map((card, i) => (
-                <div className="column">
-                  <Card>
-                    <div className="card-title center">{card.title}</div>
-                    <div className="card-body">{card.description}</div>
-                    <Image ratio={card.imageRatio} src={card.image} />
-                  </Card>
-                </div>
-              ))}
+      <div className="container">
+        <Info />
+        <div className="row">
+          {cards.map((card, i) => (
+            <div className="column">
+              <Card>
+                <div className="card-title center">{card.title}</div>
+                <div className="card-body">{card.description}</div>
+                <Image ratio={card.imageRatio} src={card.image} />
+              </Card>
             </div>
-          </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
@@ -93,36 +93,6 @@ function Card({ children }) {
   );
 }
 
-<<<<<<< HEAD
-function Particles({ children }) {
-  return (
-    <div style={{ position: "relative" }}>
-      <ReactParticles
-        params={particlesConfig}
-        style={{
-          position: "absolute",
-          zIndex: 1,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          top: 0
-        }}
-      />
-      {children && <div style={{ position: "relative" }}>{children}</div>}
-    </div>
-  );
-}
-
-function Hero({ children }) {
-  return (
-    <div className="hero">
-      <div className="hero-body">{children}</div>
-    </div>
-  );
-}
-=======
->>>>>>> master
-
 function Image({ ratio, src }) {
   return (
     <div className="image-container center">
@@ -137,8 +107,8 @@ function Image({ ratio, src }) {
             <img src={src} />
           </div>
         </div>
-      </div> 
-     </div>
+      </div>
+    </div>
   );
 }
 
@@ -156,11 +126,7 @@ function Info() {
 
 const cards = [
   {
-<<<<<<< HEAD
-    title: "Katabi closes the distance ⚡️",
-=======
-    title: '⚡️ Katabi closes the distance ⚡️',
->>>>>>> master
+    title: "⚡️ Katabi closes the distance ⚡️",
     description:
       "Katabi enables close collaboration through a WebVR experience that closes the distance between remote teams. It is a virtual world space, accessible through a browser or virtual reality headset, with ready-made meeting and social spaces and an easy-to-learn interface. 'Katabi ko' means 'beside me' in Tagalog, the Filipino language. In quarantine, social distancing no longer allows us to feel the camaraderie of sitting beside someone. Sit next to someone safely in Katabi",
     image:
