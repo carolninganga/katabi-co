@@ -1,17 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.scss";
+import logoImg from '../../assets/react_transp.png'
+
 
 function Navbar() {
   return (
     <nav>
       <div className="container">
         <NavLink to="/">
-          <img
-            src="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen_Shot_2020-06-29_at_4-removebg-preview.png?v=1593461018232"
-            width="60"
-            alt="logo"
-          />
+
+        <img src={logoImg} alt="logo" style={{width: "60px"}}/>
+
         </NavLink>
         <ul className="right">
           <li>

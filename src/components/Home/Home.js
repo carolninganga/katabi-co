@@ -3,6 +3,7 @@ import React, { Component } from "react";
 //import "../../node_modules/react-dat-gui/build/react-dat-gui.css";
 import FluidAnimation from "../../react-fluid-animation";
 import LayoutTextFields from "../LayoutTextFields/LayoutTextFields";
+import Demo from "../Demo/Demo";
 import random from "random";
 
 const defaultConfig = {
@@ -50,8 +51,7 @@ export default class Home extends Component {
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
-            color: "#fff",
-            fontFamily: 'Quicksand, "Helvetica Neue", sans-serif',
+            color: "#f0f0f0",
             pointerEvents: "none"
           }}
         >
@@ -63,7 +63,10 @@ export default class Home extends Component {
           >
             Katabi
           </h1>
-          <LayoutTextFields />
+          {/*<LayoutTextFields />*/}
+
+          <Demo />
+
         </div>
 
       </div>
