@@ -1,85 +1,68 @@
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Katabi
+## Available Scripts
 
-Katabi enables close collaboration through a WebVR experience that closes the distance between remote teams. It is a virtual world space, accessible through a browser or virtual reality headset, with ready-made meeting and studio spaces and an easy-to-learn interface.
+In the project directory, you can run:
 
+### `npm start`
 
-------
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Tech/Framework Used
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Project is created with:
+### `npm test`
 
-* JavaScript
-* Node.js
-* React 
-* Material UI
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-## Usage
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Describe the application's functionality:
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-The application will be invoked with the following command:
-```
-npm start
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Running `npm start` will execute the web app and render the website. 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-This gif demonstrates the application's functionality: [update]
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-<!-- <img src = "/public/images/dadjokes-demo.gif" width="600"> -->
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Github Style Guide
-* **Branching Name Convention:** they should begin with the sub-category such as `feature`, followed by which portion of the project it is frontend or backend such as `fe`, followed by the ID number generated inside of Trello using [our Chrome extension](https://chrome.google.com/webstore/detail/trello-card-numbers/kadpkdielickimifpinkknemjdipghaf?hl=en) such as `004`. Lastly, finsh it off with a description of the Trello card you are working on. Here is an example: `feature-fe004-homepage-main-component` or `feature-be009-mongoDB-setup`
-* **Pull Request Name Convention:** they should be displayed with `FE<ID# HERE> - <SUMMARY OF TRELLO CARD>`, for example `FE014 - Fixed The Katabi Logo location`
+### Code Splitting
 
-* **Bug or Code Issue Convention:** please make a new issue on Github (using github issues) and depending if it is frontend or backend, label it respectively. (`[FE] [page name] - [description here]` i.e. `[FE] Landingpage - image is not mobile responsive.`)
-Then use `[query] in:title` in the issues search to sort by page name. (i.e `Landiingpage in:title`)
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
+### Analyzing the Bundle Size
 
-### List of branch sub-categories:
-* `feature` for a feature in progress on Trello
-* `improvement` for a feature that has been enhanced from its original development
-*  `bug` for bug fixes or issues discovered
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-## Frontend Style Guide
-* For SCSS/CSS id names use dashes only such as `hello-world-class`
-* For SCSS/CSS try to keep the styling coupled with the component and `@import` the global variables when needed
+### Making a Progressive Web App
 
-## Trello Board 
-*You will need to be added to the board previously in order to view*
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
+### Advanced Configuration
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-## License
+### Deployment
 
-This project is licensed under the MIT license.
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
+### `npm run build` fails to minify
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-
-### Step 1
-
-* Option 1:🍴 Fork this repo!
-
-* Option 2: 👯 Clone this repo to your local machine using https://github.com/funksoup/katabi.git
-
-### Step 2
-
-* HACK AWAY! 🔨🔨🔨
-
-### Step 3
-
-* 🔃 Create a new pull request using https://github.com/funksoup/katabi/compare
-
-
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
