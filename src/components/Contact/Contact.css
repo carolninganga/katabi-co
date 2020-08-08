@@ -1,0 +1,20 @@
+.btn-block {
+	padding: 0.5rem 2rem;
+	background: transparent;
+    border: 1px #ccc solid;
+    border-radius: 50px;
+    text-decoration: none;
+	  color: #fff;
+}
+
+.btn-block:hover {
+    background: #f4f4f4;
+    color:#000;
+}
+
+.btn-block:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background: #f4f4f4;
+  color:#000;
+}
