@@ -45,7 +45,7 @@ const Team = () => (
 
   <div className="col-md-3 mt-3">
   <div className={styles.member}>
-    <img alt="phot" src="https://avatars3.githubusercontent.com/u/2343034?s=460&v=4"/>
+    <img alt="phot" src="https://cdn.glitch.com/c0dcb651-5b19-4756-a6e6-25b3982ca367%2Fmoi-2.jpg?v=1597010269116"/>
     <h2>Joyce Bettencourt</h2>
     <p className={styles.who}>Web Developer</p>
     <p className={styles.membertext}>Full-Stack Web Developer with a background in Accounting and Information Systems.</p>
