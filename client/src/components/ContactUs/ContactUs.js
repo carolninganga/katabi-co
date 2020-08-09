@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import './Contact.css';
 import Axios from 'axios';
+import './ContactUs.css';
 
-class Contact extends Component {
+
+class ContactUs extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -45,7 +46,7 @@ class Contact extends Component {
 <div className="row mt-3 text-center">
 <h1 className="mt-3" style={{margin: "0 auto", color: "white"}}>Contact Us</h1>
 </div>
-<div className="row justify-content-center mt-5 mb-5">     
+<div className="row justify-content-between mt-5 mb-5">     
         <div className="ContactUs col-md-12">
        
             <form id="contact-us-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
@@ -61,7 +62,7 @@ class Contact extends Component {
                 <label htmlFor="message" style={{color: "white"}}>Message</label>
                 <textarea style={{color: "white"}} className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
             </div>
-            <button type="submit" className="btn-block" style={{margin: "0 auto"}}>Submit</button>
+            <button type="submit" className="btn btn-primary btn-block">Submit</button>
             </form>
             </div>
     </div>
@@ -70,4 +71,4 @@ class Contact extends Component {
  )}}
 
 
-export default Contact;
+export default ContactUs;
