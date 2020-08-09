@@ -9,7 +9,7 @@ const Team = () => (
 <h1 className="mt-3" style={{margin: "0 auto", color: "white"}}>Our Team</h1>
 </div>
 
-<div className="row justify-content-between">
+<div className="row justify-content-center">
 
 <div className="col-md-3 mt-3">
   <div className={styles.member}>
@@ -65,7 +65,7 @@ const Team = () => (
   </div>
 
 
-  <div className="row justify-content-between">
+  <div className="row justify-content-center">
 
 <div className="col-md-3 mt-3">
   <div className={styles.member}>
