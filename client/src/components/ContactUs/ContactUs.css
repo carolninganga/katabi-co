@@ -1,15 +1,18 @@
 .btn-block {
-	padding: 0.5rem 2rem;
-	background: transparent;
+	  padding: 0.5rem 2rem;
+	  background: transparent;
     border: 1px #ccc solid;
     border-radius: 50px;
     text-decoration: none;
-	  color: #fff;
+    color: #fff;
+    padding-bottom: 3rem;
+    width: 100%;
 }
 
 .btn-block:hover {
     background: #f4f4f4;
     color:#000;
+    border: 1px #ccc solid !important;
 }
 
 .btn-block:focus {

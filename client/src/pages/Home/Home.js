@@ -9,7 +9,7 @@ const Home = () => {
       <div className="container">
       <div className="row mt-2 pt-5">
       <div className="col-md-8 mt-5 pt-5">
-        <h4 className="mt-6 pt-6" style={{color: "#ccc"}}>Katabi enables close collaboration<br/> through a WebVR experience</h4>
+        {/* <h4 className="mt-6 pt-6" style={{color: "#eee"}}>Katabi enables close collaboration<br/> through a WebVR experience</h4> */}
       </div>
       <div className="col-md-4">
           <div className="row mt-5 pt-5">
