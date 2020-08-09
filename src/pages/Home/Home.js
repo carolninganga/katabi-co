@@ -13,11 +13,11 @@ const Home = () => {
       </div>
       <div className="col-md-4">
           <div className="row mt-5 pt-5">
-              <a href="/#" className="btn">BUSINESS DEMO</a>
+              <a target="_blank" href="/https://funksoup.github.io/3d-scene-sandbox/loft.html" className="btn">BUSINESS DEMO</a>
           </div>
 
           <div className="row">
-              <a href="/#" className="btn">FAMILY DEMO</a>
+              <a target="_blank" href="/https://funksoup.github.io/3d-scene-sandbox/loft-beach.html" className="btn">FAMILY DEMO</a>
           </div>
 
           <div className="row">
