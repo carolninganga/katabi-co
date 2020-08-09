@@ -1,6 +1,6 @@
 import React from 'react';
 import Team from '../../components/Team/Team';
-import Contact from '../../components/Contact/Contact';
+import ContactUs from '../../components/ContactUs/ContactUs';
 
 
 
@@ -13,7 +13,7 @@ const About = () => {
           <Team />
           </div>
           <div className="row">
-          <Contact />
+          <ContactUs />
           </div>
         </div>
     )
