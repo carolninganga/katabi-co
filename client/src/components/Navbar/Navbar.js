@@ -14,7 +14,7 @@ class Navbar extends Component {
         return (
             <div>
                 <div className="navbar-fixed">
-                    <nav className="nav-wrapper N/A transparent">
+                    <nav className="nav-wrapper" style={{background: "rgba(187,187,187,0.9)"}}>
                         <div className="container">
                             <a href="/" className="brand-logo" id="logo" style={{ textDecoration: 'none', color: "#212529" }}>Katabi</a>
                             <a href="/" className="sidenav-trigger" data-target="mobile-links" style={{ textDecoration: 'none' }}>
