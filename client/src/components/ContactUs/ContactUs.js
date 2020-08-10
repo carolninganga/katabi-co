@@ -60,7 +60,7 @@ class ContactUs extends Component {
             </div>
             <div className="form-group">
                 <label htmlFor="message" style={{color: "white"}}>Message</label>
-                <textarea style={{color: "white"}} className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+                <textarea style={{color: "black"}} className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
             </div>
             <button type="submit" className="btn btn-primary btn-block">Submit</button>
             </form>
