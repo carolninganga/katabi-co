@@ -17,11 +17,11 @@ const Home = () => {
           </div>
 
           <div className="row">
-              <a target="_blank" href="https://funksoup.github.io/3d-scene-sandbox/loft-beach.html" className="btn">FAMILY DEMO</a>
+              <a target="_blank" href="https://intense-wave-15227.herokuapp.com/scene-loft-beach.html" className="btn">FAMILY DEMO</a>
           </div>
 
           <div className="row">
-              <a href="https://funksoup.github.io/3d-scene-sandbox/classroom.html" className="btn">SCHOOL DEMO</a>
+              <a href="https://intense-wave-15227.herokuapp.com/scene-classroom.html" className="btn">SCHOOL DEMO</a>
           </div>
           </div>
       </div>
