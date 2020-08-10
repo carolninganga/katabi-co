@@ -6,7 +6,7 @@ const Team = () => (
 <div className="container">
 
 <div className="row mt-3">
-<h1 className="mt-3" style={{margin: "0 auto", color: "white"}}>Our Team</h1>
+<h4 className="mt-3" style={{margin: "0 auto", color: "white"}}>Our Team</h4>
 </div>
 
 <div className="row justify-content-center">

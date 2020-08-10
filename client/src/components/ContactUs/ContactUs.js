@@ -44,7 +44,7 @@ class ContactUs extends Component {
         return (
 <div className="container">
 <div className="row mt-3 text-center">
-<h1 className="mt-3" style={{margin: "0 auto", color: "white"}}>Contact Us</h1>
+<h4 className="mt-3" style={{margin: "0 auto", color: "white"}}>Contact Us</h4>
 </div>
 <div className="row justify-content-between mt-5 mb-5">     
         <div className="ContactUs col-md-12">
