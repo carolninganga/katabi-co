@@ -28,10 +28,11 @@ class ContactUs extends Component {
     handleSubmit(event) {
         event.preventDefault();
         Axios.post('/api/contact-us/send', this.state).then(function(res){
-            alert("Your message has been sent to the Katabi Team!")
+            // alert("Your message has been sent to the Katabi Team!")
         }).catch(function(err){
             console.log(err);
         });
+        alert("Your message has been sent to the Katabi Team!")
 
         this.setState({
             name: '',
