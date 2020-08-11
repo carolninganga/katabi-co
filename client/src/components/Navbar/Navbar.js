@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import M from "materialize-css/dist/js/materialize.min.js";
+import Logo from './katabi-logo.png'
 import './Navbar.css';
 
 class Navbar extends Component {
@@ -16,7 +17,9 @@ class Navbar extends Component {
                 <div className="navbar-fixed">
                     <nav className="nav-wrapper" style={{background: "rgba(187,187,187,0.9)"}}>
                         <div className="container">
-                            <a href="/" className="brand-logo" id="logo" style={{ textDecoration: 'none', color: "#212529" }}>Katabi</a>
+                        <Link to="/">
+                            <img className="brand-logo mt-1 pt-1" src={Logo} alt="logo" />
+                        </Link>
                             <a href="/" className="sidenav-trigger" data-target="mobile-links" style={{ textDecoration: 'none' }}>
                                 <i className="material-icons" style={{color: "#212529"}}>menu</i>
                             </a>
