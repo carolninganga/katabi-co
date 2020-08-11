@@ -43,3 +43,24 @@ h4 {
 	border: 1px #BBBBBB solid;
 	color: #fff;
 }
+
+.chatbotBtn {
+	position: fixed;
+	width:80px;
+	height:34px;
+	right:80px;
+	bottom:17px;
+	border-radius: 6px 6px;
+	border: 2.5px #fff solid;
+	background-color:transparent;
+	color: #fff;
+	font-weight: bolder;
+	text-align: center !important;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #eeece9;
+	border: 2.5px transparent solid;
+	background-color: rgba(0,0,0,0.3);
+}
