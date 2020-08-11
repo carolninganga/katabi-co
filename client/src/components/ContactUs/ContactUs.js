@@ -51,11 +51,11 @@ class ContactUs extends Component {
        
             <form id="contact-us-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
             <div className="form-group">
-                <label htmlFor="name" style={{color: "black"}}>Name</label>
+                <label htmlFor="name" style={{color: "white"}}>Name</label>
                 <input style={{color:"white"}} type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
             </div>
             <div className="form-group">
-                <label htmlFor="exampleInputEmail1" style={{color: "black"}}>Email address</label>
+                <label htmlFor="exampleInputEmail1" style={{color: "white"}}>Email address</label>
                 <input style={{color:"white"}} type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
             </div>
             <div className="form-group">
