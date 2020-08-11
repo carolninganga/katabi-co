@@ -28,7 +28,9 @@ const Home = () => {
               <a href="https://intense-wave-15227.herokuapp.com/scene-classroom.html" className="btn">SCHOOL DEMO</a>
           </div>
           </div>
+
       </div>
+      <a href="/" className="chatbotBtn text-center">SUPPORT</a>
      </div>
   </div>
     )
