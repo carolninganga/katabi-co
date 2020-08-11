@@ -35,3 +35,11 @@ body {
 h4 {
 	line-height: 1.5em;
 }
+
+.banner {
+	background-color: rgba(0,0,0,0.3);
+	padding: 3rem 2rem;
+	border-radius: 15px 90px;
+	border: 1px #BBBBBB solid;
+	color: #fff;
+}
