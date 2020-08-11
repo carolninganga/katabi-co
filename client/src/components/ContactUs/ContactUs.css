@@ -21,3 +21,14 @@
   background: #f4f4f4;
   color:#000;
 }
+
+element.style {
+  color: #000 !important;
+}
+
+
+
+textarea.form-control {
+  color: #000 !important;
+}
+    
