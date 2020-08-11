@@ -10,8 +10,8 @@ const Home = () => {
       <div className="container">
       <div className="row mt-2 pt-5">
       <div className="col-md-8 mt-5 pt-5">
-        <h5 className="animate__animated animate__lightSpeedInLeft mt-6 pt-6 ml-2"  style={{color: "#eee"}}>Close the distance </h5>
-           <h5 className="animate__animated animate__lightSpeedInRight ml-2" style={{color: "#eee"}}>with ready-made webVR meeting & social spaces</h5> 
+        <h5 className="animate__animated animate__lightSpeedInLeft animate__delay-1s mt-6 pt-6 ml-2"  style={{color: "#eee"}}>Close the distance </h5>
+           <h5 className="animate__animated animate__lightSpeedInRight animate__delay-1s ml-2" style={{color: "#eee"}}>with ready-made webVR meeting & social spaces</h5> 
        
       </div>
       <div className="col-md-4">
